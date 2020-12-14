@@ -1,4 +1,4 @@
-package com.reinertisa.service;
+package com.AgileNavigate.service;
 
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -12,16 +12,17 @@ import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.AgileNavigate.model.User;
+import com.AgileNavigate.model.UserRole;
+import com.AgileNavigate.repository.UserRepository;
+import com.AgileNavigate.util.SendEmail;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import com.reinertisa.model.User;
-import com.reinertisa.model.UserRole;
-import com.reinertisa.repository.UserRepository;
-import com.reinertisa.util.SendEmail;
+
 
 @Service("userService")
 public class UserServiceImpl implements UserService {

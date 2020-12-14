@@ -1,12 +1,18 @@
-package com.reinertisa.util;
+package com.AgileNavigate.util;
 
-import com.reinertisa.model.User;
-import com.reinertisa.repository.UserRepositoryHibernate;
 
-import javax.mail.*;
+import java.util.Properties;
+
+import javax.mail.Message;
+import javax.mail.MessagingException;
+import javax.mail.PasswordAuthentication;
+import javax.mail.Session;
+import javax.mail.Transport;
 import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
-import java.util.Properties;
+
+import com.AgileNavigate.model.User;
+import com.AgileNavigate.repository.UserRepositoryHibernate;
 
 public class SendEmail {
 

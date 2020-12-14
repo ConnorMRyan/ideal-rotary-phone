@@ -1,20 +1,17 @@
-package com.reinertisa.demo;
-
-import java.util.List;
+package com.AgileNavigate.demo;
 
 import org.apache.log4j.Logger;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.reinertisa.model.TaskCategory;
-import com.reinertisa.model.TaskPriority;
-import com.reinertisa.model.TaskStatus;
-import com.reinertisa.model.User;
-import com.reinertisa.model.UserRole;
-import com.reinertisa.repository.UserRepository;
-import com.reinertisa.repository.UserRepositoryHibernate;
-import com.reinertisa.service.TaskService;
-import com.reinertisa.service.UserService;
+import com.AgileNavigate.model.TaskCategory;
+import com.AgileNavigate.model.TaskPriority;
+import com.AgileNavigate.model.TaskStatus;
+import com.AgileNavigate.model.UserRole;
+import com.AgileNavigate.service.TaskService;
+import com.AgileNavigate.service.UserService;
+
+
 
 public class MainDriver {
 

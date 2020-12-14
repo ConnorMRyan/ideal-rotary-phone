@@ -1,9 +1,9 @@
-package com.reinertisa.service;
+package com.AgileNavigate.service;
 
 import javax.servlet.http.HttpServletRequest;
 
-import com.reinertisa.model.User;
-import com.reinertisa.model.UserRole;
+import com.AgileNavigate.model.User;
+import com.AgileNavigate.model.UserRole;
 
 
 public interface UserService {

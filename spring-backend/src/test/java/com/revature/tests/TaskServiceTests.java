@@ -1,7 +1,6 @@
 package com.revature.tests;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotEquals;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -19,15 +18,16 @@ import org.mockito.MockitoAnnotations;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mock.web.MockHttpServletRequest;
 
+import com.AgileNavigate.model.Task;
+import com.AgileNavigate.model.TaskCategory;
+import com.AgileNavigate.model.TaskPriority;
+import com.AgileNavigate.model.TaskStatus;
+import com.AgileNavigate.model.User;
+import com.AgileNavigate.repository.TaskRepository;
+import com.AgileNavigate.service.TaskServiceImpl;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
-import com.reinertisa.model.Task;
-import com.reinertisa.model.TaskCategory;
-import com.reinertisa.model.TaskPriority;
-import com.reinertisa.model.TaskStatus;
-import com.reinertisa.model.User;
-import com.reinertisa.repository.TaskRepository;
-import com.reinertisa.service.TaskServiceImpl;
+
 
 @SuppressWarnings("deprecation")
 @RunWith(JUnit4ClassRunner.class)

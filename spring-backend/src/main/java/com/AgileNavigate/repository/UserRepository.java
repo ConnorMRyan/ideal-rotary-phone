@@ -1,9 +1,11 @@
-package com.reinertisa.repository;
+package com.AgileNavigate.repository;
 
 import java.util.List;
 
-import com.reinertisa.model.User;
-import com.reinertisa.model.UserRole;
+import com.AgileNavigate.model.User;
+import com.AgileNavigate.model.UserRole;
+
+
 
 public interface UserRepository {
 	

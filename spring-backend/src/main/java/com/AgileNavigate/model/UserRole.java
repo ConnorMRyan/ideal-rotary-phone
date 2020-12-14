@@ -1,4 +1,4 @@
-package com.reinertisa.model;
+package com.AgileNavigate.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

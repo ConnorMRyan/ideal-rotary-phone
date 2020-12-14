@@ -1,4 +1,4 @@
-package com.reinertisa.controller;
+package com.AgileNavigate.controller;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.reinertisa.service.TaskService;
+import com.AgileNavigate.service.TaskService;
 
 @CrossOrigin(origins = "http://localhost:4200")
 @RestController("taskController")

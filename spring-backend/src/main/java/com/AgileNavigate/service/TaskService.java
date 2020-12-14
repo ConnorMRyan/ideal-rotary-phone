@@ -1,11 +1,11 @@
-package com.reinertisa.service;
-
-import com.reinertisa.model.Task;
-import com.reinertisa.model.TaskCategory;
-import com.reinertisa.model.TaskPriority;
-import com.reinertisa.model.TaskStatus;
+package com.AgileNavigate.service;
 
 import javax.servlet.http.HttpServletRequest;
+
+import com.AgileNavigate.model.Task;
+import com.AgileNavigate.model.TaskCategory;
+import com.AgileNavigate.model.TaskPriority;
+import com.AgileNavigate.model.TaskStatus;
 
 public interface TaskService {
 
