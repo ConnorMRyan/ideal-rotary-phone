@@ -1,4 +1,4 @@
-package com.AgileNavigate.service;
+package com.reinertisa.service;
 
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -12,19 +12,18 @@ import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.AgileNavigate.model.Task;
-import com.AgileNavigate.model.TaskCategory;
-import com.AgileNavigate.model.TaskPriority;
-import com.AgileNavigate.model.TaskStatus;
-import com.AgileNavigate.model.User;
-import com.AgileNavigate.repository.TaskRepository;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-
+import com.reinertisa.model.Task;
+import com.reinertisa.model.TaskCategory;
+import com.reinertisa.model.TaskPriority;
+import com.reinertisa.model.TaskStatus;
+import com.reinertisa.model.User;
+import com.reinertisa.repository.TaskRepository;
 
 @Service("taskService")
 public class TaskServiceImpl implements TaskService{

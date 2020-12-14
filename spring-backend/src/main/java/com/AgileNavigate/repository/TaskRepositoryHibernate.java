@@ -1,4 +1,4 @@
-package com.AgileNavigate.repository;
+package com.reinertisa.repository;
 
 import java.util.List;
 
@@ -10,12 +10,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.AgileNavigate.model.Task;
-import com.AgileNavigate.model.TaskCategory;
-import com.AgileNavigate.model.TaskPriority;
-import com.AgileNavigate.model.TaskStatus;
-
-
+import com.reinertisa.model.Task;
+import com.reinertisa.model.TaskCategory;
+import com.reinertisa.model.TaskPriority;
+import com.reinertisa.model.TaskStatus;
+import com.reinertisa.model.User;
 
 
 @Repository("taskRepository")

@@ -1,4 +1,4 @@
-package com.AgileNavigate.controller;
+package com.reinertisa.controller;
 
 import javax.servlet.http.HttpServletRequest;
 

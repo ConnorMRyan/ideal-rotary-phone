@@ -1,4 +1,4 @@
-package com.AgileNavigate.repository;
+package com.reinertisa.repository;
 
 import java.util.List;
 
@@ -13,8 +13,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.AgileNavigate.model.User;
-import com.AgileNavigate.model.UserRole;
+import com.reinertisa.model.User;
+import com.reinertisa.model.UserRole;
 
 @Repository("userRepository")
 @Transactional

@@ -1,4 +1,4 @@
-package com.AgileNavigate.controller;
+package com.reinertisa.controller;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.AgileNavigate.service.UserService;
+import com.reinertisa.service.UserService;
 
 @CrossOrigin(origins = "http://localhost:4200")
 @Controller("userController")
