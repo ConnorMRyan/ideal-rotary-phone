@@ -1,0 +1,25 @@
+.background {
+    height: 950px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-weight: 900;
+    color: #fa813b;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+
+th {
+    font-size: x-large;
+    font-weight: 800;
+    color: #fa813b;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+.table-top {
+    background-color: transparent;
+}
+
+.background{
+    background-color: transparent;
+}

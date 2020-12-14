@@ -1,0 +1,34 @@
+<div class="background" [style.background-image]=" 'url(/assets/img/developer-background3.png)'">
+<div class="container" style="background-color: transparent">
+    <div class="card" style="background-color: transparent">
+        <div class="card-body" >
+
+            <div class="table-responsive mt-5">
+                <h1 class="text-center mb-3"><strong>Employee List</strong></h1>
+                <table class="table  table-striped table-dark table-bordered table-hover">
+                    <thead class="thead-dark">
+                        <th>User ID</th>
+                        <th>Username</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                        <th>Hired Date</th>
+                        <th>Role</th>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let user of users">
+                            <td class="bg-warning">{{user.userId}}</td>
+                            <td>{{user.username}}</td>
+                            <td>{{user.firstName}}</td>                        
+                            <td>{{user.lastName}}</td>
+                            <td>{{user.email}}</td>
+                            <td>{{user.hireDate}}</td>
+                            <td>{{user.role}}</td> 
+                        </tr>
+                    </tbody>
+                </table>
+              </div>
+        </div>
+    </div>
+</div> 
+</div> 
