@@ -1,14 +1,14 @@
-package com.AgileNavigate.controller;
+package com.reinertisa.controller;
 
 import javax.servlet.http.HttpServletRequest;
 
 
 public interface UserController {
 
-	String signup(HttpServletRequest req);
-	String getUser(HttpServletRequest req);
+	public String signup(HttpServletRequest req);
+	public String getUser(HttpServletRequest req);
 	//public String getAllUsers();
-	String getAllUsers(HttpServletRequest req);
+	public String getAllUsers(HttpServletRequest req);
 	
 	String updateUser(HttpServletRequest req);
 	

@@ -1,4 +1,4 @@
-package com.AgileNavigate.service;
+package com.reinertisa.service;
 
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -8,8 +8,6 @@ import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 
-import com.AgileNavigate.model.*;
-import com.AgileNavigate.repository.TaskRepository;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -20,7 +18,12 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-
+import com.reinertisa.model.Task;
+import com.reinertisa.model.TaskCategory;
+import com.reinertisa.model.TaskPriority;
+import com.reinertisa.model.TaskStatus;
+import com.reinertisa.model.User;
+import com.reinertisa.repository.TaskRepository;
 
 @Service("taskService")
 public class TaskServiceImpl implements TaskService{
@@ -202,7 +205,7 @@ public class TaskServiceImpl implements TaskService{
 		try {
 
 			JsonParser jsonParser = new JsonParser();
-			JsonElement root = jsonParser.parse(new InputStreamReader(req.getInputStream()));
+			JsonElement root = jsonParser.parse(new InputStreamReader((InputStream) req.getInputStream()));
 			JsonObject rootobj = root.getAsJsonObject();
 
 			int taskId = rootobj.get("taskId").getAsInt();
@@ -369,7 +372,7 @@ public class TaskServiceImpl implements TaskService{
 		LocalDateTime formattedTaskDueDate = LocalDateTime.parse(taskDueDate, formatter);
 			
 		return new Task(taskName, new TaskCategory(categoryId), new TaskStatus(1, "Pending"),
-		description, new TaskPriority(priorityId), user, new User(managerId),
+		description, new TaskPriority(priorityId), user, new User(managerId), 
 		taskSubmittedDate, formattedTaskDueDate);
 
 		

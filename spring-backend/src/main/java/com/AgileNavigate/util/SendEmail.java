@@ -1,9 +1,7 @@
-package com.AgileNavigate.util;
+package com.reinertisa.util;
 
-
-
-import com.AgileNavigate.model.User;
-import com.AgileNavigate.repository.UserRepositoryHibernate;
+import com.reinertisa.model.User;
+import com.reinertisa.repository.UserRepositoryHibernate;
 
 import javax.mail.*;
 import javax.mail.internet.InternetAddress;

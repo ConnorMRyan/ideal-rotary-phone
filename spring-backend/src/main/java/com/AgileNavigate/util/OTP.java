@@ -1,4 +1,4 @@
-package com.AgileNavigate.util;
+package com.reinertisa.util;
 
 import com.eatthepath.otp.TimeBasedOneTimePasswordGenerator;
 

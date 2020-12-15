@@ -1,20 +1,27 @@
-package com.AgileNavigate.service;
+package com.reinertisa.service;
 
-import com.AgileNavigate.model.User;
-import com.AgileNavigate.model.UserRole;
-import com.AgileNavigate.repository.UserRepository;
-import com.AgileNavigate.util.SendEmail;
-import com.google.gson.*;
-import org.apache.log4j.Logger;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-
-import javax.servlet.http.HttpServletRequest;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
+import javax.servlet.http.HttpServletRequest;
+
+import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+import com.reinertisa.model.User;
+import com.reinertisa.model.UserRole;
+import com.reinertisa.repository.UserRepository;
+import com.reinertisa.util.SendEmail;
 
 @Service("userService")
 public class UserServiceImpl implements UserService {
@@ -417,7 +424,7 @@ public class UserServiceImpl implements UserService {
 		try {
 
 			JsonParser jsonParser = new JsonParser();
-			JsonElement root = jsonParser.parse(new InputStreamReader(req.getInputStream()));
+			JsonElement root = jsonParser.parse(new InputStreamReader((InputStream) req.getInputStream()));
 			JsonObject rootobj = root.getAsJsonObject();
 			
 			String username = rootobj.get("username").getAsString();

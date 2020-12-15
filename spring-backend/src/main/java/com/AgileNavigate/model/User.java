@@ -1,4 +1,4 @@
-package com.AgileNavigate.model;
+package com.reinertisa.model;
 
 import java.time.LocalDateTime;
 
