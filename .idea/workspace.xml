@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="80de5225-304e-4f38-9066-c8d3acc8d3de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/project-2/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-2/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-2/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-2/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project-2/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-2/.idea/artifacts/project_2_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project-2/.idea/artifacts/project_2_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-2/.idea/libraries/Maven__com_eatthepath_java_otp_0_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-2/project-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/project-2/project-2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-2/target/classes/com/reinertisa/controller/TaskController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-2/target/classes/com/reinertisa/controller/TaskControllerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-2/target/classes/com/reinertisa/controller/UserControlerImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-2/target/classes/com/reinertisa/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-2/target/classes/com/reinertisa/demo/MainDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-2/target/classes/com/reinertisa/model/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-2/target/classes/com/reinertisa/model/TaskCategory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-2/target/classes/com/reinertisa/model/TaskPriority.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-2/target/classes/com/reinertisa/model/TaskStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-2/target/classes/com/reinertisa/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-2/target/classes/com/reinertisa/model/UserRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-2/target/classes/com/reinertisa/repository/TaskRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-2/target/classes/com/reinertisa/repository/TaskRepositoryHibernate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-2/target/classes/com/reinertisa/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-2/target/classes/com/reinertisa/repository/UserRepositoryHibernate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-2/target/classes/com/reinertisa/service/TaskService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-2/target/classes/com/reinertisa/service/TaskServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-2/target/classes/com/reinertisa/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-2/target/classes/com/reinertisa/service/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-2/target/classes/com/reinertisa/util/SendEmail$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-2/target/classes/com/reinertisa/util/SendEmail.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lRBiNeRyGscd5OvHobguaBEJvA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="E2E Tests (angular-frontend)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/angular-frontend/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/angular-frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="80de5225-304e-4f38-9066-c8d3acc8d3de" name="Default Changelist" comment="" />
+      <created>1607550150144</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607550150144</updated>
+      <workItem from="1607550153396" duration="2059000" />
+      <workItem from="1607641981941" duration="179000" />
+      <workItem from="1607713329201" duration="277000" />
+      <workItem from="1607725751310" duration="5000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
