@@ -65,6 +65,7 @@ public class UserControlerImpl implements UserController {
 // 		return userService.getAllUsers();
         return null;
 	}
+<<<<<<< Updated upstream:spring-backend/src/main/java/com/AgileNavigate/controller/UserControlerImpl.java
 
 	@PostMapping("api/searchUser")
 	@ResponseBody
@@ -74,6 +75,10 @@ public class UserControlerImpl implements UserController {
 		return null;
 
 	}
+=======
+	
+
+>>>>>>> Stashed changes:project-2/src/main/java/com/reinertisa/controller/UserControlerImpl.java
 	
 	
 	

@@ -356,6 +356,7 @@ public class UserServiceImpl implements UserService {
 	}
 	
 	
+<<<<<<< Updated upstream:spring-backend/src/main/java/com/AgileNavigate/service/UserServiceImpl.java
 // 	@Override
 // 	public String getAllUsers(HttpServletRequest req) {
 //
@@ -411,6 +412,10 @@ public class UserServiceImpl implements UserService {
 // 		return json;
 //
 // 	}
+=======
+
+	public String getAllUsers(HttpServletRequest req) {
+>>>>>>> Stashed changes:project-2/src/main/java/com/reinertisa/service/UserServiceImpl.java
 
 	
 

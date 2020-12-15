@@ -157,6 +157,10 @@ public class TaskServiceImpl implements TaskService{
 		return gson.toJson(params);
 	}
 
+	@Override
+	public String assignTask(HttpServletRequest req) {
+		return null;
+	}
 
 
 	@Override

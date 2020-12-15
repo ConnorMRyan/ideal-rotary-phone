@@ -122,6 +122,7 @@
 			<version>0.2.0</version>
 		</dependency>
 
+<<<<<<< Updated upstream:spring-backend/pom.xml
 
 		<dependency>
 			<groupId>com.eatthepath</groupId>
@@ -132,13 +133,34 @@
 		<!-- https://mvnrepository.com/artifact/org.springframework/spring-mock -->
 		<dependency>
 		<scope>test</scope>
+=======
+>>>>>>> Stashed changes:project-2/pom.xml
 
 
 
-		<groupId>org.springframework</groupId>
-		<artifactId>spring-test</artifactId>
-			<version>4.3.9.RELEASE</version>
-	</dependency>
+
+
+
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-webmvc</artifactId>
+				<version>5.3.1</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-web</artifactId>
+				<version>5.3.1</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework</groupId>
+				<artifactId>spring-test</artifactId>
+			</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<version>5.2.9.RELEASE</version>
+			<scope>test</scope>
+		</dependency>
 
 
 	</dependencies>

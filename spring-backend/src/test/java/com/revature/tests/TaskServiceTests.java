@@ -21,6 +21,12 @@ import org.springframework.mock.web.MockHttpServletRequest;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream:spring-backend/src/test/java/com/revature/tests/TaskServiceTests.java
+
+=======
+>>>>>>> Stashed changes
 import com.reinertisa.model.Task;
 import com.reinertisa.model.TaskCategory;
 import com.reinertisa.model.TaskPriority;
@@ -28,6 +34,11 @@ import com.reinertisa.model.TaskStatus;
 import com.reinertisa.model.User;
 import com.reinertisa.repository.TaskRepository;
 import com.reinertisa.service.TaskServiceImpl;
+<<<<<<< Updated upstream
+=======
+import org.springframework.mock.web.MockHttpServletRequest;
+>>>>>>> Stashed changes:project-2/src/test/java/com/revature/tests/TaskServiceTests.java
+>>>>>>> Stashed changes
 
 @SuppressWarnings("deprecation")
 @RunWith(JUnit4ClassRunner.class)

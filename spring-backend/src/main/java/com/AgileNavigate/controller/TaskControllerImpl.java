@@ -29,6 +29,11 @@ public class TaskControllerImpl implements TaskController {
 		return taskService.updateTask(req);
 	}
 
+	@Override
+	public String assignTask(HttpServletRequest req) {
+		return null;
+	}
+
 	@GetMapping("api/tasks/all")
 	public String getAllTasks() {
 		System.out.println("In getAllTasks");
