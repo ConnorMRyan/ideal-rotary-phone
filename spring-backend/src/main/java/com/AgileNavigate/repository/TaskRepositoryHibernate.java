@@ -1,20 +1,17 @@
-package com.reinertisa.repository;
+package com.AgileNavigate.repository;
 
 import java.util.List;
 
 import javax.persistence.TypedQuery;
 
+import com.AgileNavigate.model.*;
 import org.apache.log4j.Logger;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.reinertisa.model.Task;
-import com.reinertisa.model.TaskCategory;
-import com.reinertisa.model.TaskPriority;
-import com.reinertisa.model.TaskStatus;
-import com.reinertisa.model.User;
+
 
 
 @Repository("taskRepository")

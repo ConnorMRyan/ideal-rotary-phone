@@ -8,6 +8,9 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.AgileNavigate.model.*;
+import com.AgileNavigate.repository.TaskRepository;
+import com.AgileNavigate.service.TaskServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.internal.runners.JUnit4ClassRunner;
@@ -21,13 +24,7 @@ import org.springframework.mock.web.MockHttpServletRequest;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
-import com.reinertisa.model.Task;
-import com.reinertisa.model.TaskCategory;
-import com.reinertisa.model.TaskPriority;
-import com.reinertisa.model.TaskStatus;
-import com.reinertisa.model.User;
-import com.reinertisa.repository.TaskRepository;
-import com.reinertisa.service.TaskServiceImpl;
+
 
 @SuppressWarnings("deprecation")
 @RunWith(JUnit4ClassRunner.class)
@@ -48,9 +45,9 @@ public class TaskServiceTests {
 	}
 	
 	private Task getTask(int id) {
-		return new Task(id, "project-2", new TaskCategory(1, "Planning"), 
+		return new Task(id, "project-2", new TaskCategory(1, "Planning"),
 				new TaskStatus(1, "Pending"), "Thank you",
-				new TaskPriority(1, "Do Now"), new User(2), LocalDateTime.now(), 
+				new TaskPriority(1, "Do Now"), new User(2), LocalDateTime.now(),
 				new User(3), LocalDateTime.now(), LocalDateTime.now());
 	}
 	

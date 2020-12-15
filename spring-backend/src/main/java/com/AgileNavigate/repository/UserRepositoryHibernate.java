@@ -1,10 +1,12 @@
-package com.reinertisa.repository;
+package com.AgileNavigate.repository;
 
 import java.util.List;
 
 import javax.persistence.NoResultException;
 import javax.persistence.TypedQuery;
 
+import com.AgileNavigate.model.User;
+import com.AgileNavigate.model.UserRole;
 import org.apache.log4j.Logger;
 import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Restrictions;
@@ -13,8 +15,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.reinertisa.model.User;
-import com.reinertisa.model.UserRole;
+
 
 @Repository("userRepository")
 @Transactional
