@@ -1,12 +1,10 @@
-package com.reinertisa.repository;
+package com.AgileNavigate.repository;
+
+import com.AgileNavigate.model.*;
 
 import java.util.List;
 
-import com.reinertisa.model.Task;
-import com.reinertisa.model.TaskCategory;
-import com.reinertisa.model.TaskPriority;
-import com.reinertisa.model.TaskStatus;
-import com.reinertisa.model.User;
+
 
 public interface TaskRepository {
 

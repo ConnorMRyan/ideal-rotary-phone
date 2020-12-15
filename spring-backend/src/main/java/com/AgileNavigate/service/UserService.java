@@ -1,20 +1,21 @@
-package com.reinertisa.service;
+package com.AgileNavigate.service;
+
+import com.AgileNavigate.model.User;
+import com.AgileNavigate.model.UserRole;
 
 import javax.servlet.http.HttpServletRequest;
 
-import com.reinertisa.model.User;
-import com.reinertisa.model.UserRole;
 
 
 public interface UserService {
 
-	public String signup(HttpServletRequest req);
+	String signup(HttpServletRequest req);
 	//public String getAllUsers();
 	//public String getAllUsers(HttpServletRequest req);
-	public User getUserByUsername(String username);
-	public User getUser(String firstName, String lastName);
-	public String getUser(HttpServletRequest req);
-	public String updateUser(HttpServletRequest req);
+	User getUserByUsername(String username);
+	User getUser(String firstName, String lastName);
+	String getUser(HttpServletRequest req);
+	String updateUser(HttpServletRequest req);
 	
 	
 	String signin(HttpServletRequest req);
