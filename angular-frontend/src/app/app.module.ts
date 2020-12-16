@@ -31,6 +31,9 @@ import { MatAutocompleteModule } from '@angular/material/autocomplete';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatDatepickerModule } from '@angular/material/datepicker';
+import { WeatherContainerComponent } from './components/weather/weather-container/weather-container.component';
+import { WeatherCurrentComponent } from './components/weather/weather-current/weather-current.component';
+import { WeatherForecastComponent } from './components/weather/weather-forecast/weather-forecast.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +52,10 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
     DashboardComponent,
     UpdateProfileComponent,
     EmpUpdateTaskComponent,
-    ShowTasksComponent
+    ShowTasksComponent,
+    WeatherContainerComponent,
+    WeatherCurrentComponent,
+    WeatherForecastComponent
   ],
   imports: [
     BrowserModule,
